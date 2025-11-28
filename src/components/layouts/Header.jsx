@@ -54,7 +54,7 @@ const Header = () => {
 
 
         {active && (
-          <ul className="md:hidden  space-y-4 font-nunito font-bold text-[#0A2C3D] p-4   absolute left-0 right-0 bg-amber-300 transition-all duration-700 ease-in-out">
+          <ul className="md:hidden  space-y-4 font-nunito font-bold md:text-[#0A2C3D] p-4   absolute left-0 right-0 bg-[#171B2A] text-white transition-all duration-700 ease-in-out text-center">
             <li className="hover:text-[#FF5A3C]"><Link to="/">Home</Link></li>
             <li className="hover:text-[#FF5A3C]"><Link to="/properties">Properties</Link></li>
             <li className="hover:text-[#FF5A3C]"><Link to="/property">Property</Link></li>
